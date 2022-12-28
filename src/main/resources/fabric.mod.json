@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dont_run_with_knives",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Don't run with Knives!",
+  "description": "If you experience fall damage with swords, you are doing it wrong!",
   "authors": [
-    "Me!"
+    "simonmicro"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,12 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.simonmicro.dont_run_with_knives.DontRunWithKnivesMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=0.14.11",
