@@ -13,7 +13,7 @@
     "sources": "https://gitlab.simonmicro.de/minecraft-modding/dont-run-with-knives"
   },
 
-  "license": "CC0-1.0",
+  "license": "AGPL-3",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -30,7 +30,5 @@
     "minecraft": "~1.19.3",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
