@@ -126,7 +126,7 @@ public class DontRunWithKnivesMod implements ModInitializer {
 					if (extraDamage > 0) {
 						String userMsg = "Don't run with knives! ";
 						p.damage(DamageSource.FALL, fallDamageTaken + extraDamage);
-						userMsg += "You took " + extraDamage + " HP extra damage";
+						userMsg += "You took " + Math.round(extraDamage) + " HP extra damage";
 						if (burnTickTime > 0) {
 							p.setOnFireFor(Math.round(burnTickTime  / 20));
 							userMsg += " (burning hot!)";
