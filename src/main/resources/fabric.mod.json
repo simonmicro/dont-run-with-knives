@@ -14,7 +14,7 @@
   },
 
   "license": "AGPL-3",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dont_run_with_knives/icon.png",
 
   "environment": "*",
   "entrypoints": {
